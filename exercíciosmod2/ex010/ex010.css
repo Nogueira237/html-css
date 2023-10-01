@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap');
+
+
+body{
+    background-color: #B8ADFF;
+}
+
+h1#principal{
+    color: #544F75;
+    text-align: center;
+}
+h1#segundo{
+    color: #8179B3;
+    text-align: center;
+}
+
+h2{
+    color: rgb(59, 0, 114);
+}
+p{
+    color: #000000;
+}
+.basico{
+    font: normal 30px Arial, serif;
+}
+.intermediario{
+    font: normal 30px 'Handjet', serif;
+}
+.avancado{
+    font: normal 30px serif;
+}
