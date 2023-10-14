@@ -2,21 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Passion+One&family=Sriracha&display=swap');
 
+body{
+    margin: auto;
+}
 header {
     background-color: black;
     color: white;
     text-align: center;
     padding: 45px;
-    margin: -8px -8px;
-
 }
-
 header > h1{
     display: inline-block;
     font: normal;
     font-family: 'Passion one', serif;
     font-size: 139px;
     margin: auto;
+}
+header > aside{
+    font-family: Verdana,Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-weight: bold;
 }
 main > section > p{
     font: normal;
@@ -38,6 +47,7 @@ section.imagem > p{
     width: 470px;
     padding: 5px;
     margin-left: 25px;
+    margin-top: 65px ;
 }
 .imagem2{
     background: black url(imagens/background002.jpg) center right no-repeat fixed  ;
@@ -51,4 +61,11 @@ section.imagem2 > p{
     width: 475px;
     margin-left: 25px;
     margin-top: 50px;
+}
+footer{
+    height: 3vh;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: Verdana,Tahoma, sans-serif;
 }
