@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas 02</title>
     <style>
+        caption{
+            background-color: lightgray;
+            height: 30px;
+            font-weight: bold;
+            padding-top: 10px;
+        }
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -20,15 +26,24 @@
             color: white;
             background-color: gray;
         }
+        tbody > tr:nth-child(even){
+            background-color:  rgb(77, 77, 77);
+            color: white;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgb(45, 71, 45);
+            color: white;
+        }
 
     </style>
 </head>
 <body>
 
     <table>
+        <caption>População dos estados</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
         </thead>
         <tbody>
             <tr>
@@ -46,7 +61,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td>81.013.701</td>
             </tr>
         </tfoot>
