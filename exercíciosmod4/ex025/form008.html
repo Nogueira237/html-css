@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 8</title>
+</head>
+<body>
+    <form action="form008.html" method="get">
+        <p>
+            <label for="inum1">Primeiro número: </label>
+            <input type="number" name="num1" id="inum1" required>
+        </p>
+        <p>
+            <label for="inum2">Segundo número: </label>
+            <input type="number" name="num2" id="inum2" required>
+        </p>
+        <p>
+            <label for="isoma">Soma: </label>
+            <output name="soma" id="isoma">0</output>
+        </p>
+
+        <p>
+            <input type="button" value="Enviar" onclick="mostrar()">
+            <input type="reset" value="Limpar" onclick="limpar()">
+        </p>
+    </form>
+    <script>
+        let numero1 = document.getElementById("inum1")
+        let numero2 = document.getElementById("inum2")
+        let soma = document.getElementById("isoma")
+        function mostrar(){
+            const resultado = Number(numero1.value) + Number(numero2.value)
+            soma.innerHTML = resultado
+        } 
+        function limpar(){
+            soma.innerHTML = 0
+        }
+    </script>
+    
+</body>
+</html>
