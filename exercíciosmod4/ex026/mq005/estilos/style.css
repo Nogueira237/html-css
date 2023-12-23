@@ -1,39 +1,48 @@
 @charset "UTF-8";
 
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
 }
-body, html{
+
+body,
+html {
     background-color: lightgray;
 }
-header{
+
+header {
     background-color: rgb(148, 148, 148);
 }
-header > h1{
+
+header>h1 {
     padding: 10px;
     text-align: center;
 }
-i#burguer{
+
+i#burguer {
     background-color: rgb(48, 48, 48);
     color: white;
     display: block;
     text-align: center;
     padding: 10px;
 }
-i#burguer:hover{
+
+i#burguer:hover {
     background-color: white;
     color: black;
     cursor: pointer;
 }
-menu{
+
+menu {
     display: block;
 }
-menu > ul{
+
+menu>ul {
     list-style-type: none;
 }
-menu > ul >  li > a{
+
+menu>ul>li>a {
     display: none;
     padding: 10px;
     text-decoration: none;
@@ -42,10 +51,12 @@ menu > ul >  li > a{
     text-align: center;
     border-top: 2px solid gray;
 }
-menu > ul >  li > a:hover{
+
+menu>ul>li>a:hover {
     background-color: gray;
 }
-main{
+
+main {
     width: 90vw;
     background-color: white;
     margin: auto;
@@ -53,10 +64,12 @@ main{
     border-radius: 10px;
     margin-top: 10px;
 }
-article > h2{
+
+article>h2 {
     padding-bottom: 10px;
 }
-article > p {
+
+article>p {
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;

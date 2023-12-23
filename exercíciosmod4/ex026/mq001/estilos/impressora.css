@@ -2,20 +2,22 @@
 
 /*Estilo impressora*/
 
-*{
+* {
     padding: 10px;
     margin: 10px;
 }
 
-html{
+html {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     line-height: 1.5em;
 }
-menu{
+
+menu {
     display: none;
 }
-article::after{
+
+article::after {
     content: "Artigo impresso por meio do site www.naoseioqueseioquela.com";
     font-size: 0.1em;
 }

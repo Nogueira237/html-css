@@ -2,23 +2,26 @@
 
 /*Estilo telas*/
 
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-html{
+html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
-header{
+
+header {
     background-color: brown;
 }
-header > menu{
+
+header>menu {
     background-color: lightblue;
     padding: 0px;
 }
-header > menu > ul > li{
+
+header>menu>ul>li {
     display: inline-block;
     padding: 10px;
     margin: 0px 10px;

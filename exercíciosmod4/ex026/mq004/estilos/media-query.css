@@ -3,40 +3,44 @@
 /*Demais mídias*/
 
 @media print {
-    *{
+    * {
         font-family: 'Courier New', Courier, monospace;
     }
-    body{
+
+    body {
         background-image: url(../imagens/back-print.jpg);
     }
-    main>h1{
+
+    main>h1 {
         text-shadow: none;
         color: black;
     }
-    main{
+
+    main {
         border: 2px solid black;
     }
+
     img {
         display: block;
         margin: auto;
     }
-    
+
     img#phone {
         display: none;
     }
-    
+
     img#tablet {
         display: none;
     }
-    
+
     img#impressora {
         display: block;
     }
-    
+
     img#computador {
         display: none;
     }
-    
+
     img#televisao {
         display: none;
     }
