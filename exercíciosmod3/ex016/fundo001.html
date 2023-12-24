@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste imagens background</title>
     <style>
-        body{
+        body {
             background-image: url(Imagens/wallpaper001.jpg);
         }
-        div.quadrado{
+
+        div.quadrado {
             display: inline-block;
             border: 2px solid black;
             width: 300px;
@@ -16,18 +18,22 @@
             border-radius: 10px;
             background-color: lightpink;
         }
-        div#q1{
+
+        div#q1 {
             background-color: skyblue;
         }
-        div#q2{
+
+        div#q2 {
             background-image: linear-gradient(to bottom, rgb(0, 255, 34), rgb(255, 230, 0));
 
         }
-        div#q3{
+
+        div#q3 {
             background-image: url(Imagens/pattern001.png);
 
         }
-        div#q1:hover{
+
+        div#q1:hover {
             background-color: brown;
             transition-duration: 0.2s;
             cursor: pointer;
@@ -35,6 +41,7 @@
     </style>
 
 </head>
+
 <body>
     <div class="quadrado" id="q1">
 
@@ -45,6 +52,7 @@
     <div class="quadrado" id="q3">
 
     </div>
- 
+
 </body>
+
 </html>
